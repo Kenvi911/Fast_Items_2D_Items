@@ -19,6 +19,9 @@
   "entrypoints": {
     "client": [
       "cn.noryea.fastitems.FastItemsFabric"
+    ],
+    "modmenu": [
+      "cn.noryea.fastitems.ModMenuApiImpl"
     ]
   },
   "mixins": [

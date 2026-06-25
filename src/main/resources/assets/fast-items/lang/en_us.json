@@ -1,0 +1,15 @@
+{
+  "fastitems.midnightconfig.title": "Fast Items Configuration",
+
+  "fastitems.midnightconfig.enable": "Enable Mod",
+  "fastitems.midnightconfig.enable.tooltip": "Enables or disables all item rendering changes.\n§aON§r: Items appear as flat 2D sprites.\n§cOFF§r: Default Minecraft rendering.",
+
+  "fastitems.midnightconfig.castShadows": "Cast Shadows",
+  "fastitems.midnightconfig.castShadows.tooltip": "Controls whether dropped items cast a shadow on the ground.\n§aON§r: Items have a shadow underneath.\n§cOFF§r: No shadow is rendered.",
+
+  "fastitems.midnightconfig.renderSidesOfItems": "Render Sides of 2D Items",
+  "fastitems.midnightconfig.renderSidesOfItems.tooltip": "Controls whether the sides of flat 2D items are visible.\n§aON§r: Sides are visible (slightly 3D look).\n§cOFF§r: Items are completely flat.",
+
+  "fastitems.midnightconfig.affect3DModels": "Affect 3D Models",
+  "fastitems.midnightconfig.affect3DModels.tooltip": "Controls whether 3D items like blocks also face the camera.\n§aON§r: Blocks and 3D items face the camera (like Lunar Client).\n§cOFF§r: 3D items spin normally."
+}
