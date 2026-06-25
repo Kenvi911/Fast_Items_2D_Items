@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "fast-items",
+  "version": "${version}",
+  "name": "Fast Items",
+  "description": "Optimize item rendering by transforming items to 2D",
+  "authors": [
+    "Kenvi",
+    "Noryea (original author)"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/fast-items-2d",
+    "sources": "https://github.com/Kenvi911/Fast_Items_2D_Items",
+    "issues": "https://github.com/Kenvi911/Fast_Items_2D_Items/issues"
+  },
+  "license": "ARR",
+  "icon": "assets/fast-items/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cn.noryea.fastitems.FastItemsFabric"
+    ]
+  },
+  "mixins": [
+    "fast-items.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "midnightlib": "*"
+  }
+}
